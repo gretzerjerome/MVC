@@ -1,0 +1,282 @@
+*
+{
+    margin: 0vh;
+    padding: 0vh;
+    font-family: Lato;
+}
+
+body
+{
+    background-image:url(images/fond.jpg);
+    background-color: rgb(33, 94, 168);
+    background-clip: border-box;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-position: center bottom;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header
+{
+    background-color: rgb(49, 49, 49);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.presentation
+{
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 10px 10px 10px 10px;
+    min-width: 300px;
+}
+
+.carte
+{
+    margin: 50px;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 50px;
+    line-height: 25px;
+    
+}
+
+.carte > a
+{
+    font-size: 1rem;
+    color: black;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+ul
+{
+    min-width: 25%;
+    list-style-type: none;
+    padding-bottom: 25px;
+}
+
+.carte > p, a
+{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.menu-bouton
+{
+    margin-top: 30px;
+    margin-left: auto;
+    padding-bottom: 50px;
+    
+}
+
+.menu-bouton > ul > li > a
+{
+
+    float: left;
+    text-decoration: none;
+    padding-bottom: 10%;
+    color: white;
+    background-color: rgb(67, 67, 67);
+    padding: 10px;
+    border: rgb(45, 45, 45);
+    border-radius: 25px 25px 10px 10px;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.sectionprincipale
+{
+    background-color: white;
+}
+
+.stock
+{
+    background-color: white;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.stock > h2
+{
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 150px;
+}
+
+.stock > p
+{
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.textarea
+{
+    width: 375px;
+    max-width: 80%;
+}
+
+.Dernierobjet
+{
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.Dernierobjet > h2
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+
+.Dernierobjet > img
+{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 15px;
+    border: 10px solid rgb(53, 53, 53);
+    border-bottom: 30px solid rgb(53, 53, 53);
+    border-radius: 5px 5px 5px 5px;
+    width: 20%;
+    min-width: 100px;
+}
+
+.selectionpage
+{
+    margin-top: 25px;
+    margin-left: 40%;
+}
+
+.selectionpage > ul > li > a
+{
+    float: left;
+    text-decoration: none;
+    padding-bottom: 10%;
+    color: rgb(255, 253, 253);
+    background-color: rgb(67, 67, 67);
+    padding: 10px;
+    border: rgb(45, 45, 45);
+    border-radius: 25px 25px 10px 10px;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+}
+
+.recherche
+{
+    font-weight: 700;
+    background-color: rgb(38, 38, 38);
+    color: rgb(247, 240, 240);
+    border-radius: 7px 7px 7px 7px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.pages-but
+{
+    margin-top: 25px;
+}
+
+.pages-but > a
+{
+    background-color: rgb(38, 38, 38);
+    color: white;
+    margin-left: 15px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.motclé
+{
+    margin-left: -50px;
+    column-count: 4;
+    column-width: 40%;
+    -moz-column-count: 4;
+    -moz-column-width: 40%;
+    -webkit-column-count: 4;
+    -webkit-column-width: 40%;
+    margin-top: 25px;
+    padding-bottom: 100px;
+    min-width: 300px;
+}
+
+.motclé > ul > li
+{
+    width: 200px;
+    border-bottom: 1px solid lightgrey;
+    text-align: right;
+}
+
+.momentpoesie
+{
+    margin-top: 350px;
+    margin-left: 25%;
+    margin-right: 30%;
+    text-align:center;
+}
+
+.momentpoesie > .citation
+{
+    color: white;
+    font-style: oblique;
+    line-height: 50px;
+    margin-left: 10%;
+    margin-right: 30%;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 2.2rem;
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    width: 600px;
+}
+
+.momentpoesie > .auteur
+{
+    color: white;
+    font-style: oblique;
+    margin-bottom: 250px;
+    /* margin-left: 250px;
+    margin-right: 550px; */
+    background-color: black;
+    width: 225px;
+    text-align: center;
+}
+
+footer
+{
+    font-size: 0.8rem;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(33, 33, 33);
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+footer > span > a
+{
+    color: white;
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+footer > span
+{
+    margin-left: 30%;
+    margin-right: 30%;
+    display: inline-block;
+}
